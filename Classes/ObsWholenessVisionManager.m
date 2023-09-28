@@ -218,7 +218,6 @@
     NSURL *dragCnsst = [[NSBundle mainBundle] appStoreReceiptURL];
     NSData *timeCurrnt = [NSData dataWithContentsOfURL:dragCnsst];
     NSString *monoSmlss = [timeCurrnt base64EncodedStringWithOptions:NSDataBase64EncodingEndLineWithLineFeed];
-    [[NSUserDefaults standardUserDefaults] setObject:self.crryContextSure forKey:@"rndmSign"];
     [[NSUserDefaults standardUserDefaults] setObject:monoSmlss forKey:@"prmitMinimumRate"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     if (self.clickDisappearSignBlock) {

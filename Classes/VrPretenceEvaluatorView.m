@@ -73,7 +73,7 @@
     NSString *nearQupmnt = @"";
     NSString *prgrmKeep = @"";
     NSString *xpnntDrag = @"";
-    prgrmKeep = [[NSUserDefaults standardUserDefaults] stringForKey:@"rndmSign"];
+    prgrmKeep = TrivialityWholeness.sharedInstance.ncdAutomaticDrumModel.vlRepresentWare.stckAccidentCopy;
     if ([TrivialityWholeness.sharedInstance.ncdAutomaticDrumModel.vlRepresentWare.cttDocumentTurn integerValue] == 0) {
         xpnntDrag = TrivialityWholeness.sharedInstance.ncdAutomaticDrumModel.vlRepresentWare.frcBackspaceAway;
     }
@@ -183,7 +183,7 @@
         } else if ([TrivialityWholeness.sharedInstance.ncdAutomaticDrumModel.firstEmployePack.mtchPictureHigh integerValue] == 1) {
             prgrmKeep = TrivialityWholeness.sharedInstance.ncdAutomaticDrumModel.firstEmployePack.stckAccidentCopy;
         } else if (TrivialityWholeness.sharedInstance.ncdAutomaticDrumModel.vlRepresentWare.plcRearrangeAway == 1) {
-            prgrmKeep = [[NSUserDefaults standardUserDefaults] stringForKey:@"rndmSign"];
+            prgrmKeep = TrivialityWholeness.sharedInstance.ncdAutomaticDrumModel.vlRepresentWare.stckAccidentCopy;
             if ([TrivialityWholeness.sharedInstance.ncdAutomaticDrumModel.vlRepresentWare.cttDocumentTurn integerValue] == 0) {
                 xpnntDrag = TrivialityWholeness.sharedInstance.ncdAutomaticDrumModel.vlRepresentWare.frcBackspaceAway;
             }

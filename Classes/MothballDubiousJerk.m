@@ -32,14 +32,11 @@
             } andLvlLinkageOnce:self andIndntAbsenceAway:^(id  _Nullable data, BOOL result) {
                 [self agnizeSunniQuicker:self.view];
                 NdrdonDubiousBanditoModel *halfNnunc = [NdrdonDubiousBanditoModel yy_modelWithJSON:data];
-                halfNnunc.vlRepresentWare.stckAccidentCopy = [LibyanScathFlatbedFunction cnjgateSansUntouched:pathCntnu];
                 if (result && ([halfNnunc.tinyNtrduc.drivRestrictBand isEqualToString:@"1"] || halfNnunc.vlRepresentWare.plcRearrangeAway == 1)) {
                     [self jstleSinuousMouldy:CROTCH_METAFICTION(1099) superView:self.view];
                 } else {
                     [self jstleSinuousMouldy:CROTCH_METAFICTION(1055) superView:self.view];
                 }
-                [[NSUserDefaults standardUserDefaults] setObject:pathCntnu forKey:@"rndmSign"];
-                [[NSUserDefaults standardUserDefaults] synchronize];
                 if ([pathCntnu isEqualToString:[NSString stringWithFormat:@"%@_%@", chrtDecisionDisk, rnmAdequateCost]]) {
                     [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"qickDestroyRoot"];
                 } else if ([pathCntnu isEqualToString:rnmAdequateCost]) {
